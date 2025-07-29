@@ -1,6 +1,5 @@
 const env = require('dotenv').config()
-const OPENAI_API_KEY = "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";
-
+const OPENAI_API_KEY = "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";
 const express = require('express');
 const { default: OpenAI } = require('openai');
 const chatRouter = express.Router();
