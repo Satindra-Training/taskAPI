@@ -1,5 +1,5 @@
 const env = require('dotenv').config()
-const OPENAI_API_KEY = process.env.OPEN_AI_KEY
+const OPENAI_API_KEY = "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";
 
 const express = require('express');
 const { default: OpenAI } = require('openai');
